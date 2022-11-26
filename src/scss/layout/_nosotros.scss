@@ -1,0 +1,12 @@
+@include tablet {
+    .contenedor-nosotros {
+        @include grid (2, 2rem);
+    }
+}
+
+.contenido-nosotros h4  {
+    margin: 2rem 0;
+    line-height: 0;
+    text-align: left;
+    font-weight: $bold;
+}

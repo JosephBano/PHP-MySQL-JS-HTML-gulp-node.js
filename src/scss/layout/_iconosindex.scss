@@ -1,0 +1,19 @@
+
+.icono {
+    h3 {
+        text-transform: uppercase;
+    }
+    img {
+        max-height: 10rem;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+.iconos-nosotros {
+    @include tablet {
+        @include grid (3, 1rem);        
+    }
+}
+
